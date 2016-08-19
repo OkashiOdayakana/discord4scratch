@@ -17,7 +17,7 @@
                     console.log(xhttp.responseText);
                 }
             };
-            xhttp.open("GET", "https://aeurofish.com/proxy.php?url=https://discordapp.com/api/channels/"+channel+"/messages&Authorization="+ext.auth+"&content="+content);
+            xhttp.open("GET", "https://discordapp.com/api/channels/"+channel+"/messages&Authorization="+ext.auth+"&content="+content);
             xhttp.send();
         } else {
             alert("Please set auth!");
